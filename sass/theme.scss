@@ -1,0 +1,214 @@
+@import "./color.scss";
+
+@font-face {
+    font-family: "Nexa-bold";
+
+    src: url("../font/Nexa\ Bold.otf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Nexa-light";
+
+    src: url("../font/Nexa\ Light.otf");
+    font-weight: 100;
+}
+
+
+
+h1{
+    font-family: "Nexa-bold";
+   font-size: 2rem;
+   color: $darkblue;
+
+}
+h2{
+    font-family: "Nexa-bold";
+    font-size: 1.5rem;
+  
+}
+
+h3{
+    color: $blue;
+    font-family: "nexa-bold";
+}
+
+
+h4{
+    font-family: "Nexa-light";
+}
+
+p{
+    font-family: "Nexa-light";
+    
+    
+    text-align: center;
+    }
+
+
+@media (max-width: 767px){
+body{
+
+
+    h1{
+        font-family: "Nexa-bold";
+       font-size: 2rem;
+       color: $darkblue;
+    
+    }
+ 
+
+    .contant{
+        width: 90%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+
+p{
+    font-family: "Nexa-light";
+    color: $nexa-light;
+    
+    text-align: center;
+}
+input {
+    font-family: "Nexa-light";
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+
+button {
+    font-family: "Nexa-light";
+}
+    
+
+
+/* section2*/
+
+h2{
+    font-family: "Nexa-bold";
+    font-size: 1.5rem;
+    color:$darkblue;
+}
+
+
+.button2{
+    font-family: "Nexa-bold";
+     
+    color:$darkblue;
+
+}
+
+.button02{
+    font-family: "Nexa-bold";
+
+}
+
+h3{
+    color: $blue;
+    font-family: "nexa-bold";
+}
+
+.Specialists{
+    background: linear-gradient($light-black 5% ,$light 50%) ;
+}
+.section-4-h3{
+    color: $whitecolor;
+    font-family: "nexa-bold";
+}
+
+.section-4-p{
+    color: $whitecolor;
+    font-family: "Nexa-light";
+}
+
+
+
+
+.text{
+    color: $whitecolor;
+}
+.survices{
+    font-family: "Nexa-bold";
+    color: $dark-gray;
+    background-color: $whitecolor;
+}
+
+.section5{
+    background-color: #d2d2d2;
+}
+
+ 
+
+
+.section6-h2-tag{
+    color: $whitecolor;
+    font-size: 1.5rem;
+}
+.section6-p-tag{
+    color: $dark-gray;
+}
+.section6button{
+    background-color: $blue;
+    color: $whitecolor;
+} 
+}
+}
+
+@media all and (min-width: 768px) and (max-width: 1033px){
+
+    .contant{
+        width: 90%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+
+    button {
+        font-family: "Nexa-light";
+    }
+
+
+
+    
+}
+
+
+
+@media (min-width: 1034px){
+
+    .contant{
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+
+    .menubarul1{
+        font-family: "Nexa-light";
+    }
+    .navbutton1{font-family: "Nexa-light";}
+
+
+    .navbutton2{font-family: "Nexa-light";}
+
+    p{
+        font-family: "Nexa-light";
+        color: $nexa-light;
+        text-align: left;
+    
+    
+    }
+        
+}
+

@@ -1,0 +1,217 @@
+@import "./color.scss";
+
+
+
+/* section2*/
+
+@media (max-width:767px) {
+    .desktop-section2{
+        display: none;
+    }
+
+.section2{
+
+    height: 80rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+    align-items: center;
+
+
+    img{
+        width: 90%;
+    
+    }
+    .button2{
+        width: 90%;
+        background-color: $whitecolor;
+        height: 3rem;
+        text-align: left;
+        border-radius: 10px;
+        border-color:$black 0.5px;
+
+
+    }
+    .button01{
+        color: $lightblue;
+    }
+    .button02{
+        width: 90%;
+        height: 3rem;
+        text-align: left;
+        border-radius: 10px; 
+        border-color: $dark-gray 1px;
+         color:$light-gray;
+         background-color: $whitecolor;
+    }
+}
+}
+
+
+@media  (min-width: 727px) and (max-width: 1033px){
+
+    .section2{
+        display: none;
+    }
+
+    .desktop-section2{
+        width: 100%;
+        height: 60rem;
+        display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+    align-items: center;
+
+    .column-2nd{
+        height: 80%;
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .buttons{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .button2{
+        width: 80%;
+        background-color: $whitecolor;
+        height: 5rem;
+        text-align: left;
+        border-radius: 10px;
+        border-color:$black 0.5px;
+    }
+    .button02{
+        width: 80%;
+        height: 5rem;
+        text-align: left;
+        border-radius: 10px; 
+        border-color: $dark-gray 1px;
+         color:$light-gray;
+         background-color: $whitecolor;
+    }
+    .image-and-somecontant{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .section2-image{
+        height: 70%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .contant-2{
+        width: 90%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    }
+
+}
+
+
+@media (min-width: 1034px){
+
+    .section2{
+        display: none;
+    }
+
+    .desktop-section2{
+        width: 100%;
+        height: 60rem;
+        display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+    align-items: center;
+
+    .column-2nd{
+        height: 80%;
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .buttons{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .button2{
+        width: 80%;
+        background-color: $whitecolor;
+        height: 5rem;
+        text-align: left;
+        border-radius: 10px;
+        border-color:$black 0.5px;
+    }
+    .button02{
+        width: 80%;
+        height: 5rem;
+        text-align: left;
+        border-radius: 10px; 
+        border-color: $dark-gray 1px;
+         color:$light-gray;
+         background-color: $whitecolor;
+    }
+    .image-and-somecontant{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .section2-image{
+        height: 70%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .contant-2{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;}
+   
+    }
+
+
+    
+}

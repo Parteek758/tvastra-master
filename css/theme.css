@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Nexa-bold";
+  src: url("../font/Nexa Bold.otf");
+  font-weight: 100; }
+
+@font-face {
+  font-family: "Nexa-light";
+  src: url("../font/Nexa Light.otf");
+  font-weight: 100; }
+
+h1 {
+  font-family: "Nexa-bold";
+  font-size: 2rem;
+  color: #151e3b; }
+
+h2 {
+  font-family: "Nexa-bold";
+  font-size: 1.5rem; }
+
+h3 {
+  color: #0173b2;
+  font-family: "nexa-bold"; }
+
+h4 {
+  font-family: "Nexa-light"; }
+
+p {
+  font-family: "Nexa-light";
+  text-align: center; }
+
+@media (max-width: 767px) {
+  body {
+    /* section2*/ }
+    body h1 {
+      font-family: "Nexa-bold";
+      font-size: 2rem;
+      color: #151e3b; }
+    body .contant {
+      width: 90%;
+      height: 20%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-evenly; }
+    body p {
+      font-family: "Nexa-light";
+      color: #293357;
+      text-align: center; }
+    body input {
+      font-family: "Nexa-light";
+      height: 100%;
+      width: 100%;
+      border: none; }
+    body button {
+      font-family: "Nexa-light"; }
+    body h2 {
+      font-family: "Nexa-bold";
+      font-size: 1.5rem;
+      color: #151e3b; }
+    body .button2 {
+      font-family: "Nexa-bold";
+      color: #151e3b; }
+    body .button02 {
+      font-family: "Nexa-bold"; }
+    body h3 {
+      color: #0173b2;
+      font-family: "nexa-bold"; }
+    body .Specialists {
+      background: linear-gradient(#797c8500 5%, #151422 50%); }
+    body .section-4-h3 {
+      color: #ffffffff;
+      font-family: "nexa-bold"; }
+    body .section-4-p {
+      color: #ffffffff;
+      font-family: "Nexa-light"; }
+    body .text {
+      color: #ffffffff; }
+    body .survices {
+      font-family: "Nexa-bold";
+      color: #6f6060;
+      background-color: #ffffffff; }
+    body .section5 {
+      background-color: #d2d2d2; }
+    body .section6-h2-tag {
+      color: #ffffffff;
+      font-size: 1.5rem; }
+    body .section6-p-tag {
+      color: #6f6060; }
+    body .section6button {
+      background-color: #0173b2;
+      color: #ffffffff; } }
+
+@media all and (min-width: 768px) and (max-width: 1033px) {
+  .contant {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly; }
+  button {
+    font-family: "Nexa-light"; } }
+
+@media (min-width: 1034px) {
+  .contant {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
+  .menubarul1 {
+    font-family: "Nexa-light"; }
+  .navbutton1 {
+    font-family: "Nexa-light"; }
+  .navbutton2 {
+    font-family: "Nexa-light"; }
+  p {
+    font-family: "Nexa-light";
+    color: #293357;
+    text-align: left; } }

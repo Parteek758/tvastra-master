@@ -1,0 +1,107 @@
+@import "./color.scss";
+
+@media (max-width: 767px){
+.section5{
+    height: 45rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+.OthreSurvices{
+    height: 70%;
+    width: 90%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+
+.survices{
+    width: 49%;
+    height:29%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+}
+}
+
+
+
+
+
+@media all and (min-width: 768px) and (max-width: 1033px){
+
+    .section5{
+        height: 35rem;
+        width: 100%;
+        background-color: #d2d2d2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    
+        .OthreSurvices{
+            height: 60%;
+            width: 90%;
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: space-between;
+        }
+        .survices{
+            width: 32%;
+            height:45%;
+            border-radius: 20px;
+            color: $dark-gray;
+            background-color: $whitecolor;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+    }
+
+}
+
+
+@media (min-width: 1034px){
+
+    .section5{
+        height: 23rem;
+        width: 100%;
+        background-color: #d2d2d2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    
+        .OthreSurvices{
+            height: 50%;
+            width: 90%;
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: space-between;
+        }
+
+        .survices{
+            width: 16%;
+            height:90%;
+            color: $dark-gray;
+            background-color: $whitecolor;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+    }
+
+
+
+}

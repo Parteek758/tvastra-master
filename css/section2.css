@@ -1,0 +1,153 @@
+/* section2*/
+@media (max-width: 767px) {
+  .desktop-section2 {
+    display: none; }
+  .section2 {
+    height: 80rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+    .section2 img {
+      width: 90%; }
+    .section2 .button2 {
+      width: 90%;
+      background-color: #ffffffff;
+      height: 3rem;
+      text-align: left;
+      border-radius: 10px;
+      border-color: black 0.5px; }
+    .section2 .button01 {
+      color: #93bede; }
+    .section2 .button02 {
+      width: 90%;
+      height: 3rem;
+      text-align: left;
+      border-radius: 10px;
+      border-color: #6f6060 1px;
+      color: #808080;
+      background-color: #ffffffff; } }
+
+@media (min-width: 727px) and (max-width: 1033px) {
+  .section2 {
+    display: none; }
+  .desktop-section2 {
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+    .desktop-section2 .column-2nd {
+      height: 80%;
+      width: 90%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center; }
+    .desktop-section2 .buttons {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly; }
+    .desktop-section2 .button2 {
+      width: 80%;
+      background-color: #ffffffff;
+      height: 5rem;
+      text-align: left;
+      border-radius: 10px;
+      border-color: black 0.5px; }
+    .desktop-section2 .button02 {
+      width: 80%;
+      height: 5rem;
+      text-align: left;
+      border-radius: 10px;
+      border-color: #6f6060 1px;
+      color: #808080;
+      background-color: #ffffffff; }
+    .desktop-section2 .image-and-somecontant {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly; }
+    .desktop-section2 .section2-image {
+      height: 70%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .desktop-section2 .section2-image img {
+        height: 100%;
+        width: 100%; }
+    .desktop-section2 .contant-2 {
+      width: 90%;
+      height: 20%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-evenly; } }
+
+@media (min-width: 1034px) {
+  .section2 {
+    display: none; }
+  .desktop-section2 {
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+    .desktop-section2 .column-2nd {
+      height: 80%;
+      width: 90%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center; }
+    .desktop-section2 .buttons {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly; }
+    .desktop-section2 .button2 {
+      width: 80%;
+      background-color: #ffffffff;
+      height: 5rem;
+      text-align: left;
+      border-radius: 10px;
+      border-color: black 0.5px; }
+    .desktop-section2 .button02 {
+      width: 80%;
+      height: 5rem;
+      text-align: left;
+      border-radius: 10px;
+      border-color: #6f6060 1px;
+      color: #808080;
+      background-color: #ffffffff; }
+    .desktop-section2 .image-and-somecontant {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly; }
+    .desktop-section2 .section2-image {
+      height: 70%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .desktop-section2 .section2-image img {
+        height: 100%;
+        width: 100%; }
+    .desktop-section2 .contant-2 {
+      height: 20%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly; } }

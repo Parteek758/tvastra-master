@@ -1,0 +1,312 @@
+@import "./color.scss";
+ 
+
+    @media (max-width:767px) {
+   .navbar{
+     height:4rem;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+
+  .logoin{
+     
+     height: 100%;
+     width:40%;
+     display: flex;
+     justify-content: center;
+     align-items: center;                
+         }
+   .logo1{
+     height:70%;
+     width:70%;
+       }
+
+  .Menubar{
+     height: 100% ;
+     display: none;
+  
+  .menubarul1{
+     height:100% ;
+     width:100% ;
+     display: flex;
+     flex-direction:row;  
+     justify-content: space-evenly;
+     align-items: center;   
+     align-content: center;
+li{ 
+                         
+      text-decoration: none;
+      list-style-type: none;
+a{
+      text-decoration: none;
+      list-style-type: none;
+ }
+  }
+     } 
+
+     .navbar-button{
+       height: 100%;
+       width: 20%;
+       display: none;
+     }
+  
+
+     
+  .dropbtn{
+     width: 20%;
+     align-items: flex-start;
+     display: none;
+     justify-content: center;
+     flex-direction: column;
+
+     background-color: $whitecolor;
+    
+                  
+  i{
+    display: none;
+    text-decoration:none ;
+     background-color: white;
+     color: $black ;
+      } 
+    }
+     }
+    .dropdown-content{       
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    a{
+      display: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none; 
+    }
+  }
+
+  
+  .form1{
+      
+      
+       height: 22rem;
+      
+       padding-bottom: 1rem;
+            
+         
+     input{
+         width: 93%;
+         height: 2rem;
+         border: none;
+            }
+          }
+          }
+      }
+      
+          
+    
+    .dropdown-content a:hover {background-color: #ddd;}
+  
+  .menu:hover .dropdown-content {display: block;}
+  
+  .menu:hover .dropbtn {background-color: #3e8e41;}
+      
+     
+    
+
+@media  (min-width: 726px) and (max-width: 1033px){
+    .navbar{
+        height:4rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+   
+     .logoin{
+        
+        height: 100%;
+        width:40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;                
+            }
+      .logo1{
+        height:70%;
+        width:70%;
+          }
+   
+     .Menubar{
+        height: 100% ;
+        display: none;
+     
+     .menubarul1{
+        height:100% ;
+        width:100% ;
+        display: flex;
+        flex-direction:row;  
+        justify-content: space-evenly;
+        align-items: center; 
+        text-align: center;  
+      
+   li{ 
+                            
+         text-decoration: none;
+         list-style-type: none;
+   a{
+         text-decoration: none;
+         list-style-type: none;
+    }
+     }
+        } 
+               
+      .navbar-button{
+        height: 100%;
+        display: none;
+      }
+
+
+     .dropbtn{
+        width: 20%;
+        align-items: flex-start;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-decoration: none;
+        background-color: $whitecolor;
+       }
+                     
+     i{
+        background-color: white;
+        color: $black ;
+         } 
+        
+       .dropdown-content{       
+       display: none;
+       position: absolute;
+       background-color: #f1f1f1;
+       min-width: 160px;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 1;
+       a{
+         color: black;
+         padding: 12px 16px;
+         text-decoration: none;
+         display: block;
+         
+       }
+     }
+     }
+     .form1{
+         
+         
+          height: 22rem;
+         
+          padding-bottom: 1rem;
+               
+            
+        input{
+            width: 93%;
+            height: 2rem;
+            border: none;
+               }
+     
+         
+         }
+       }  
+             
+       
+       .dropdown-content a:hover {background-color: #ddd;}
+     
+     .menu:hover .dropdown-content {display: block;}
+     
+     .menu:hover .dropbtn {background-color: #3e8e41;}
+       
+          
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+    
+
+  @media (min-width: 1034px){
+    .navbar{
+        height:4rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+  
+ .logoin{
+   width: 20%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+.logo1{
+  width: 80%;
+  height: 80%;
+ 
+}
+.Menubar{
+  width: 40%;
+  height: 100%; 
+}
+.menubarul1{
+  width: 100%;
+  height:100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  a{
+    text-decoration: none;
+    color: $dark-gray;
+  }
+
+}
+.navbar-button{
+width: 30%;
+height: 100%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.navbutton1{
+height: 60%;
+width: 35%;
+border: black solid 1px ;
+border-radius: 3px;
+
+}
+.navbutton2{
+  height: 60%;
+  width: 35%;
+  background-color: $darkblue;
+  color: $whitecolor;
+  border: black solid 1px;
+  border-radius: 3px;
+}
+
+.dropdown-content{
+  display: none;
+}
+
+.dropbtn{
+  display: none;
+}
+
+
+    }
+}
+

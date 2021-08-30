@@ -1,0 +1,174 @@
+/*section1*/
+@media (max-width: 726px) {
+  body input {
+    font-family: "Nexa-light";
+    height: 88%;
+    width: 100%;
+    border: none; }
+  .section1 {
+    height: 30em;
+    width: 100%;
+    background-color: #93bede;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .section1 .placeholder {
+      height: 90%;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center; }
+    .section1 .main-maping {
+      width: 90%;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center; }
+    .section1 .button1-maping {
+      height: 2.1rem;
+      width: 99%; }
+    .section1 .maping {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 2.3rem;
+      background-color: #ffffffff; }
+      .section1 .maping i {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 2.3rem;
+        width: 10%; }
+    .section1 .SEARCH {
+      height: 3rem;
+      width: 40%;
+      background-color: #151e3b;
+      color: #ffffffff;
+      border: none;
+      margin-bottom: 1rem; }
+    .section1 .input-type {
+      width: 100%;
+      height: 2.3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffffff; } }
+
+@media (min-width: 727px) and (max-width: 1033px) {
+  .section1 {
+    height: 25em;
+    width: 100%;
+    background: #93bede;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+    .section1 .placeholder {
+      height: 60%;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+    .section1 .main-maping {
+      width: 90%;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: unset;
+      text-align: center; }
+    .section1 .button1-maping {
+      width: 25%;
+      text-align: center;
+      margin-right: 1px; }
+    .section1 .input-type {
+      width: 60%; }
+    .section1 .maping {
+      width: 100%;
+      height: 2rem;
+      display: flex;
+      align-items: center;
+      margin-right: 3px;
+      background-color: #ffffffff; }
+      .section1 .maping i {
+        width: 30%; }
+      .section1 .maping input {
+        border: none;
+        width: 100%;
+        height: 1rem; }
+    .section1 .input-button-2 {
+      height: 2rem;
+      width: 100%;
+      padding: unset;
+      border: none; }
+    .section1 .SEARCH {
+      height: 2rem;
+      width: 25%;
+      background-color: #151e3b;
+      color: #ffffffff;
+      border: none; } }
+
+@media (min-width: 1034px) {
+  .section1 {
+    height: 25em;
+    width: 100%;
+    background-image: url("../asserts/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+    .section1 .placeholder {
+      height: 60%;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly; }
+    .section1 .contant {
+      height: 70%; }
+    .section1 .main-maping {
+      width: 70%;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: unset;
+      text-align: center; }
+    .section1 .button1-maping {
+      width: 25%;
+      text-align: center;
+      margin-right: 1px; }
+    .section1 .input-type {
+      width: 60%; }
+    .section1 .maping {
+      width: 100%;
+      height: 3.3rem;
+      display: flex;
+      align-items: center;
+      margin-right: 1px;
+      background-color: #ffffffff; }
+      .section1 .maping i {
+        width: 30%; }
+      .section1 .maping input {
+        border: none;
+        width: 100%;
+        height: 3rem;
+        text-align: center; }
+    .section1 .input-button-2 {
+      height: 3.3rem;
+      width: 100%;
+      padding: unset;
+      border: none;
+      text-align: center; }
+    .section1 .SEARCH {
+      height: 3.3rem;
+      width: 25%;
+      background-color: #151e3b;
+      color: #ffffffff;
+      border: none; } }

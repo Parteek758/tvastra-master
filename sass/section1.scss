@@ -1,0 +1,245 @@
+@import "./color.scss";
+
+/*section1*/
+@media (max-width: 726px){
+body input {
+  font-family: "Nexa-light";
+  height: 88%;
+  width: 100%;
+  border: none;
+}
+
+.section1{
+  height: 30em;
+  width: 100%;
+  background-color: $lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  .placeholder{
+    height: 90%;
+    width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  
+  
+  }
+
+
+ .main-maping{
+width: 90%;
+height: 70%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+text-align: center;
+}
+
+
+.button1-maping{
+  height: 2.1rem;
+  width: 99%;
+  
+ 
+  
+}
+.maping{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 2.3rem;
+  background-color: $whitecolor;
+  
+i{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 2.3rem;
+  width: 10%;
+}
+
+}
+
+
+
+.SEARCH{
+  height: 3rem;
+  width: 40%;
+background-color: $darkblue;
+color: $whitecolor;
+border: none;
+margin-bottom: 1rem;
+}
+.input-type{
+  width: 100%;
+  height: 2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $whitecolor;
+}
+}}
+
+
+
+
+
+@media  (min-width: 727px) and (max-width: 1033px){
+
+  .section1{
+    height: 25em;
+    width: 100%;
+    background: $lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  .placeholder{
+    height: 60%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+ 
+    .main-maping{
+      width: 90%;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: unset;
+      text-align: center;
+      }
+.button1-maping{
+  width: 25%;
+  text-align: center;
+  margin-right: 1px;
+}
+.input-type{
+  width: 60%;
+ 
+}
+.maping{
+  width: 100%;
+  height: 2rem;
+  display: flex;
+ align-items: center;
+ margin-right: 3px;
+ background-color: $whitecolor;
+i{
+  width:30%;
+}
+  input{
+   border: none;
+    width: 100%;
+    height: 1rem;
+  }
+}
+.input-button-2{
+height: 2rem;
+width: 100%;
+padding: unset;
+border: none;
+}
+
+.SEARCH{
+  height: 2rem;
+  width: 25%;
+background-color: $darkblue;
+color: $whitecolor;
+border: none;
+
+}
+      
+    }
+
+}
+
+
+@media (min-width: 1034px){
+  .section1{
+    height: 25em;
+    width: 100%;
+    background-image: url("../asserts/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  .placeholder{
+    height: 60%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .contant{
+    height: 70%;
+    }
+    .main-maping{
+      width: 70%;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: unset;
+      text-align: center;
+      }
+.button1-maping{
+  width: 25%;
+  text-align: center;
+  margin-right: 1px;
+}
+.input-type{
+  width: 60%;
+ 
+}
+.maping{
+  width: 100%;
+  height: 3.3rem;
+  display: flex;
+ align-items: center;
+ margin-right: 1px;
+ background-color: $whitecolor;
+i{
+  width: 30%;
+}
+  input{
+   border: none;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+  }
+}
+.input-button-2{
+height: 3.3rem;
+width: 100%;
+padding: unset;
+border: none;
+text-align: center;
+}
+
+.SEARCH{
+  height: 3.3rem;
+  width: 25%;
+background-color: $darkblue;
+color: $whitecolor;
+border: none;
+
+}
+      
+    }
+  }
+
+ 
+
+
